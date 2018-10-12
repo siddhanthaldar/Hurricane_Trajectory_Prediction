@@ -31,7 +31,7 @@ To convert the grid coordinates back to the latitudes and longitudes, we can fol
 This would substantially reduce the error involved in conversion of grid coordinates to latitude and longitude.
 
 ## Conclusion
-Since we plan to use only 5 features for training and testing purposes, the application will be computationally efficient and can be deployed easily as a web app using web services such as Flask, Socket etc. The proposed application will extract the features using satellite data and the user given location and predict if a cyclone might strike a particular area in the near future.
+Since we plan to use only 4 features for training and testing purposes, the application will be computationally efficient and can be deployed easily as a web app using web services such as Flask, Socket etc. The proposed application will extract the features using satellite data and the user given location and predict if a cyclone might strike a particular area in the near future.
 
 
 
