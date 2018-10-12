@@ -12,6 +12,9 @@ We will be using the Atlantic Hurricane database and the Northeast and North Cen
 
 ## Methodology
 ### Grid Modelling
+
+![hurricane](https://user-images.githubusercontent.com/25313941/46867948-555c2400-ce44-11e8-9bd1-bb67e27d03b7.png)
+
 We plan to devise a grid model with each data point being assigned to a particular grid block and we will train the neural network to predict the grid block of the hurricane at the next time step given the location at the present time step. The number of grid blocks used in our model could be tuned depending on the amount of hurricane data available. Having a large number of data points would enable us to use a large number of smaller grid blocks, thus permitting more accurate prediction with less error margin.
 
 ### Proposed Model
